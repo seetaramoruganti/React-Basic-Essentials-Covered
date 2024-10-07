@@ -4,13 +4,13 @@ import CoreConcepts from "./components/Core_Cocepts/CoreConceptFeature.jsx";
 
 function App() {
   return (
-    <div>
+    <>
       <Header />
       <main>
         <CoreConcepts />
         <Examples />
       </main>
-    </div>
+    </>
   );
 }
 
